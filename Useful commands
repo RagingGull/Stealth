@@ -1,0 +1,7 @@
+git status                            || show sync status
+
+git branch                            || list local branches
+git ls-remote                         || list remote branches
+git branch name                       || create a new local branch called "name"
+git checkout name                     || switch to branch "name"
+git push --set-upstream origin name   || push a local branch to remote
